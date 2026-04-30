@@ -121,7 +121,7 @@ sudo nano ~/.config/kitty/kitty.conf
 ```
 # BEGIN_KITTY_THEME
 include themes/themes-lair/[NEW-NAME].conf
-# END_KITTY THEME
+# END_KITTY_THEME
 ```
 > [!WARNING]
 > If BEGIN_KITTY_THEME already exists, refer to the snippet above; however, comment the initial `include current-theme.conf` or just remove the line and put in the new include line. It should look like this. Failure to do so will lead to a failed installation.
@@ -130,6 +130,7 @@ include themes/themes-lair/[NEW-NAME].conf
 # BEGIN_KITTY_THEME
 # include current-theme.conf [or whatever it was back then.]
 include themes/themes-lair/[NEW-NAME].conf
+#END_KITTY_THEME
 ```
 
 - Finally, exit your editor and restart kitty. You can either close and reopen the window (not encouraged if you're busy with something on the terminal), or reload it with `CTRL + SHIFT + F5`.
