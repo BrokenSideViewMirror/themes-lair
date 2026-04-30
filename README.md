@@ -130,7 +130,7 @@ include themes/themes-lair/[NEW-NAME].conf
 # BEGIN_KITTY_THEME
 # include current-theme.conf [or whatever it was back then.]
 include themes/themes-lair/[NEW-NAME].conf
-#END_KITTY_THEME
+# END_KITTY_THEME
 ```
 
 - Finally, exit your editor and restart kitty. You can either close and reopen the window (not encouraged if you're busy with something on the terminal), or reload it with `CTRL + SHIFT + F5`.
