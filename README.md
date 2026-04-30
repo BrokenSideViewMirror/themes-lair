@@ -139,3 +139,13 @@ include themes/themes-lair/[NEW-NAME].conf
 
 > [!NOTE]
 > This is currently a WIP, and not all themes have proper previews yet. More are coming soon!
+
+![Paradiso Dark preview](./README_assets/paradiso-preview.png)
+
+![Retrowave Dark preview](./README_assets/retrowave-dark-preview.png)
+
+![Retrowave Light preview](./README_assets/retrowave-light-preview.png)
+
+![Schoolboy Colored preview](./README_assets/schoolboy-colored-preview.png)
+
+![Schoolboy Mono preview](./README_assets/schoolboy-mono-preview.png)
