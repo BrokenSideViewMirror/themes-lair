@@ -8,10 +8,10 @@ normal=$(tput sgr0)
 echo "${bold}Themes Helper v. 1.00${normal}"
 echo -e "\nThemes Helper is the tool to help do various utilities in your system."
 echo -e "\n${bold}Coded by BrokenSideViewMirror.${normal}\n"
-read -p "To initialize a directory and add template files, press ${bold}1${normal}. To just download a template, press ${bold}2${normal}." menuprompt
+read -p "To initialize a directory and add template files, press ${bold}1${normal}. To just download a template, press ${bold}2${normal}. : " menuprompt
 
 if [[ "$menuprompt" == "1" ]]; then
-  read -p "What do you want to name the new directory?" option
+  read -p "What do you want to name the new directory? : " option
   if [[ -z "$option" ]]; then
     echo "${bold}ERROR:${normal} The directory you specified is invalid. Was your specification a null value?"
     exit 1
