@@ -135,17 +135,27 @@ include themes/themes-lair/[NEW-NAME].conf
 
 - Finally, exit your editor and restart kitty. You can either close and reopen the window (not encouraged if you're busy with something on the terminal), or reload it with `CTRL + SHIFT + F5`.
 
-# PREVIEWS
+# Previews
 
 > [!NOTE]
 > This is currently a WIP, and not all themes have proper previews yet. More are coming soon!
 
+***Paradiso Dark***
+
 ![Paradiso Dark preview](./README_assets/paradiso-preview.png)
+
+***Retrowave Dark***
 
 ![Retrowave Dark preview](./README_assets/retrowave-dark-preview.png)
 
+***Retrowave Light***
+
 ![Retrowave Light preview](./README_assets/retrowave-light-preview.png)
 
+***Schoolboy Colored***
+
 ![Schoolboy Colored preview](./README_assets/schoolboy-colored-preview.png)
+
+***Schoolboy Mono***
 
 ![Schoolboy Mono preview](./README_assets/schoolboy-mono-preview.png)
